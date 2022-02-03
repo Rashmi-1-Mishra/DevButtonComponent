@@ -1,0 +1,575 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+.App {
+  display : grid;
+  height : 70vw;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+}
+.sideComponentDiv {
+  background: #FAFBFD;
+  grid-column: 1/2;
+  grid-row : 1/12;
+  border-radius: 4px;
+}
+.rightComponentDiv {
+  background: #FFFFFF;
+  grid-column: 2/6;
+  grid-row: 1/11;
+  display:grid;
+  grid-template-rows : 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  width : 100%;
+}
+.footerComponentDiv{
+  background: #FFFFFF;
+  grid-column: 2/6;
+  grid-row: 11/12;
+}
+.textComponentDiv .Dev {
+  position: absolute;
+  width: 114px;
+  height: 20px;
+  left: 48px;
+  top: 38px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 19px;
+  color: black;
+}
+.textComponentDiv .Dev:before {
+  color: #F7542E;
+  content : "Dev";
+}
+.textComponentDiv .colors {
+
+  position: absolute;
+  width: 62px;
+  height: 20px;
+  left: 48px;
+  top: 180px;
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #9E9E9E;
+}
+.textComponentDiv .typo {
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  left: 48px;
+  top: 225px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #9E9E9E;
+}
+.textComponentDiv .spaces {
+  position: absolute;
+  width: 47px;
+  height: 20px;
+  left: 48px;
+  top: 277px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #9E9E9E;
+}
+.textComponentDiv .buttons {
+  position: absolute;
+  width: 53px;
+  height: 20px;
+  left: 48px;
+  top: 327px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #9E9E9E;
+}
+.textComponentDiv .inputs {
+  position: absolute;
+  width: 45px;
+  height: 20px;
+  left: 48px;
+  top: 375px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #090F31;
+}
+.textComponentDiv .grid {
+  position: absolute;
+  width: 29px;
+  height: 20px;
+  left: 48px;
+  top: 430px;
+
+  font-family: Noto Sans JP;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+
+  color: #9E9E9E;
+}
+.rightComponentDiv > div {
+  padding: 10px;
+}
+.rightComponentDiv .buttonText {
+  position :relative;
+  width: 93px;
+  height: 36px;
+  left: 50px;
+  top: 10px; 
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 36px;
+  color: #4F4F4F; 
+}
+.rightComponentDiv .group1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group1 #btn1 {
+  grid-column: 1;
+  grid-row: 2;
+  background: #E0E0E0;
+box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group1 #btn2 {
+  grid-column: 2;
+  grid-row : 2;
+  background: #AEAEAE;
+  box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+  border-radius: 6px;
+}
+.rightComponentDiv .group1 #btnlbl1 {
+  grid-column: 1;
+  grid-row: 1;
+  color: #333333;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+}
+.rightComponentDiv .group1 #btnlbl2 {
+  grid-column: 2;
+  grid-row : 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+color: #828282;
+}
+.rightComponentDiv .group2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group2 #btn3 {
+  grid-column: 1;
+  grid-row: 2;
+border: 1px solid #3D5AFE;
+border-radius: 6px;
+background-color: #FFFFFF;
+}
+.rightComponentDiv .group2 #btn4 {
+  grid-column: 2;
+  grid-row : 2;
+  background: rgba(41, 98, 255, 0.1);
+border: 1px solid #3D5AFE;
+border-radius: 6px;
+}
+.rightComponentDiv .group2 #btnlbl3 {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #333333;
+}
+.rightComponentDiv .group2 #btnlbl4 {
+  grid-column: 2;
+  grid-row : 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+color: #828282;
+}
+.rightComponentDiv .group3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group3 #btn5 {
+  grid-column: 1;
+  grid-row: 2;
+  background: #FFFFFF;
+border: 0px;
+}
+.rightComponentDiv .group3 #btn6 {
+  grid-column: 2;
+  grid-row: 2;
+  background: rgba(41, 98, 255, 0.1);
+border-radius: 6px;
+}
+.rightComponentDiv .group3 #btnlbl5 {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #333333;
+}
+.rightComponentDiv .group3 #btnlbl6 {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+text-align: center;
+color: #828282;
+}
+.rightComponentDiv .group4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group4 #btn7 {
+  grid-column: 1;
+  grid-row: 2;
+  background: #3D5AFE;
+border-radius: 6px;
+}
+.rightComponentDiv .group4 #btnlbl7 {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #333333;
+}
+.rightComponentDiv .group5 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group5 #btn8 {
+  grid-column: 1;
+  grid-row: 2;
+  background: #E0E0E0;
+border-radius: 6px;
+}
+.rightComponentDiv .group5 #btn9 {
+  grid-column: 2;
+  grid-row: 2;
+  color: #9E9E9E;
+}
+.rightComponentDiv .group5 #btnlbl8 {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group5 #btnlbl9 {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #333333;
+}
+.rightComponentDiv .group6 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group6 #btn10 {
+  grid-column: 1;
+  grid-row: 2;
+  background: #2962FF;
+box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group6 #btn11 {
+  grid-column: 2;
+  grid-row: 2;
+  background: #2962FF;
+box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group6 #btnlbl10 {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group6 #btnlbl11 {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group7 #btn12 {
+  grid-column: 1;
+  grid-row: 2;
+  background: #2962FF;
+box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group7 #btn13 {
+  grid-column: 2;
+  grid-row: 2;
+  background: #2962FF;
+box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group7 #btn14 {
+  grid-column: 3;
+  grid-row: 2;
+  background: #2962FF;
+box-shadow: 0px 2px 3px rgba(0, 49, 202, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group7 #btnlbl12 {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group7 #btnlbl13 {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group7 #btnlbl14 {
+  grid-column: 3;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group8 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group8 #btn15 {
+  grid-column: 1;
+  grid-row: 2;
+  background: #E0E0E0;
+box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group8 #btn16 {
+  grid-column: 2;
+  grid-row: 2;
+  background: #2962FF;
+box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group8 #btn17 {
+  grid-column: 3;
+  grid-row: 2;
+  background: #455A64;
+box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group8 #btn18 {
+  grid-column: 4;
+  grid-row: 2;
+  background: #D32F2F;
+box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+border-radius: 6px;
+}
+
+.rightComponentDiv .group8 #btnlbl15 {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group8 #btnlbl16 {
+  grid-column: 2;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group8 #btnlbl17 {
+  grid-column: 3;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group8 #btnlbl18 {
+  grid-column: 4;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+.rightComponentDiv .group9 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.rightComponentDiv .group9 #btn19 {
+  grid-column: 1;
+  grid-row: 2;
+  background: #AEAEAE;
+box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group9 #btn20 {
+  grid-column: 2;
+  grid-row: 2;
+  background: #0039CB;
+box-shadow: 0px 2px 3px rgba(41, 98, 255, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group9 #btn21 {
+  grid-column: 3;
+  grid-row: 2;
+  background: #1C313A;
+box-shadow: 0px 2px 3px rgba(69, 90, 100, 0.2);
+border-radius: 6px;
+}
+.rightComponentDiv .group9 #btn22 {
+  grid-column: 4;
+  grid-row: 2;
+  background: #9A0007;
+  box-shadow: 0px 2px 3px rgba(211, 47, 47, 0.2);
+  border-radius: 6px;
+}
+.rightComponentDiv .group9 #btnlbl19 {
+  grid-column: 1;
+  grid-row: 1;
+  font-family: Ubuntu Mono;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 12px;
+color: #828282;
+}
+.rightComponentDiv div > button{
+  width : 120px;
+  height : 30px;
+  
+}
+.rightComponentDiv div > span{
+  width : 120px;
+  height : 30px;
+  left : 0px;
+  background: white;
+}
+.footerComponentDiv .iconText {
+  position: absolute;
+  width: 330px;
+  height: 17px;
+  left: 25%;
+  top: 140.5%;
+  font-family: Ubuntu Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #828282;
+}
+.footerComponentDiv .userText {
+  position: absolute;
+width: 330px;
+height: 17px;
+left: 25%;
+top: 143.5%;
+font-family: Montserrat;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 17px;
+color: #A9A9A9;
+}
