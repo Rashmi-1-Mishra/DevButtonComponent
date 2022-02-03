@@ -47,7 +47,8 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 - What was your experience?
 
 
-         Always it is better to learn something new. Some challenges occur while building this small project but with the help of various resourses, it all resolves.
+         Always it is better to learn something new. Some challenges occur while building this small project
+         but with the help of various resourses, it all resolves.
          
 
 - What have you learned/improved?
