@@ -40,9 +40,30 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
+
+         "https://rashmi-1-mishra.github.io/dev-button-component/"
+         
+         
 - What was your experience?
+
+
+         Always it is better to learn something new. Some challenges occur while building this small project but with the help of various resourses, it all resolves.
+         
+
 - What have you learned/improved?
+
+
+         Majorly learning of mine from this project is as below:
+            1) CSS
+            2) CSS Grid property
+            3) Reusing a component and passing arguments to achieve better functionality
+
+
 - Your wisdom? :)
+
+
+      Great !!
+
 
 ### Built With
 
